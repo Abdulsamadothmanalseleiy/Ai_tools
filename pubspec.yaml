@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  url_launcher: ^6.3.1
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -17,8 +17,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  # assets:
-  #  - images/a_dot_burr.jpeg
+  assets:
+     - assets/Ai-tools.json
   #  - images/a_dot_ham.jpeg
   # fonts:
   #   - family: Schyler
